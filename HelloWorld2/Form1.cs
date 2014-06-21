@@ -21,5 +21,10 @@ namespace HelloWorld2
         {
             MessageBox.Show("HelloWorld", "Hello");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("これはGitHubにて公開されています", "This is a GitHub");
+        }
     }
 }
